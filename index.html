@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Academy — Feedback &amp; Support</title>
+</head>
+<!-- No CSS. Legacy presentation attributes are used for this activity. -->
+<body bgcolor="#e8f4f4" text="#142e30" link="#165d60" vlink="#165d60">
+<header>
+  <table width="100%" cellpadding="12" bgcolor="#ffffff"><tr>
+    <td><h1><font color="#20585a">◎ GLOBAL ACADEMY</font></h1></td>
+    <td align="center"><input type="search" aria-label="Search the platform" placeholder="Search..." size="35"></td>
+    <td align="right">▦ &nbsp; ●</td>
+  </tr></table>
+</header>
+<nav aria-label="Main navigation">
+  <table width="100%" cellpadding="12" bgcolor="#165d60"><tr align="center">
+    <td><a href="#dashboard"><font color="#ffc378">DASHBOARD</font></a></td>
+    <td><a href="#schedule"><font color="white">MY COURSES</font></a></td>
+    <td><a href="#resources"><font color="white">RESOURCES</font></a></td>
+    <td><a href="#community"><font color="white">COMMUNITY</font></a></td>
+    <td><a href="#support"><font color="white">HELP</font></a></td>
+  </tr></table>
+</nav>
+<main id="dashboard">
+  <table width="100%" cellpadding="12" cellspacing="10"><tr valign="top">
+    <td width="20%" bgcolor="#ffffff">
+      <aside><h2><font color="#165d60">QUICK ACCESS</font></h2>
+        <nav aria-label="Quick access">
+          <p><a href="#community">Announcements</a></p><hr>
+          <p><a href="#schedule">Calendar Events</a></p><hr>
+          <p><a href="#schedule">Grades</a></p><hr>
+          <p><a href="#support">Faculty Directory</a></p>
+        </nav>
+      </aside>
+    </td>
+    <td width="80%">
+      <section aria-labelledby="hub-title">
+        <h2 id="hub-title"><font color="#165d60">LEARNING HUB</font></h2>
+        <table width="100%" cellpadding="25" bgcolor="#205e61"><tr><td align="center">
+          <div id="community"><h3><font color="white">WELCOME BACK</font></h3>
+            <p><font color="white">Continue learning and connect with your educational community.</font></p>
+          </div>
+        </td></tr></table>
+      </section>
+      <table width="100%" cellpadding="10" cellspacing="8"><tr valign="top">
+        <td width="62%" bgcolor="#ffffff"><section id="schedule" aria-labelledby="schedule-title">
+          <h2 id="schedule-title"><font color="#165d60">COURSE SCHEDULE</font></h2>
+          <div><table border="1" cellpadding="8" cellspacing="0" width="100%" bgcolor="#e7f3f3">
+            <caption>Course modules, instructors, dates and completion status</caption>
+            <thead bgcolor="#2b9e9c"><tr><th scope="col">Module</th><th scope="col">Topic</th><th scope="col">Instructor</th><th scope="col">Date</th><th scope="col">Status</th></tr></thead>
+            <tbody>
+              <tr><td rowspan="3">Module 1</td><td>Learning &amp; Profession Courses</td><td>John B.B.</td><td>8/12/2024</td><td>Complete</td></tr>
+              <tr><td>Experimental Learning</td><td>Berni Mant</td><td>3/11/2024</td><td>Complete</td></tr>
+              <tr><td>Summary Learning</td><td>Jim F.</td><td>1/12/2024</td><td>Complete</td></tr>
+              <tr><td rowspan="4">Module 2</td><td>Student Schedule</td><td>Geman S.</td><td>8/12/2024</td><td>Success</td></tr>
+              <tr><td>Developmental Learning</td><td>Flashhster</td><td>0/12/2024</td><td>Success</td></tr>
+              <tr><td>Social Learning<br>Designs &amp; communities</td><td>Mariv W.</td><td>8/12/2024</td><td>Plan</td></tr>
+              <tr><td>Summary Schedule</td><td>Jims A.</td><td>0/13/2024</td><td>Plan</td></tr>
+              <tr><td rowspan="3">Module 3</td><td>Student Learning</td><td>Mariv M.</td><td>9/12/2024</td><td>Complete</td></tr>
+              <tr><td>Complete Learning</td><td>Geman S.</td><td>0/12/2024</td><td>Success</td></tr>
+              <tr><td>Developmental Learning</td><td>Flashhster</td><td>9/13/2024</td><td>Success</td></tr>
+            </tbody>
+          </table></div>
+        </section></td>
+        <td width="38%" bgcolor="#fff0db"><section id="resources" aria-labelledby="reading-title">
+          <h2 id="reading-title"><font color="#165d60">RECOMMENDED READING</font></h2>
+          <div>
+            <article><span aria-hidden="true">📚</span><div><h3>Recommended Articles</h3><p>Explore resources to strengthen your knowledge and discover new learning opportunities.</p></div></article>
+            <article><span aria-hidden="true">📖</span><div><h3>Fast Fitting Becoming Articles</h3><p>Discover practical study techniques and build effective habits for your courses.</p></div></article>
+            <article><span aria-hidden="true">📚</span><div><h3>Recommended Articles</h3><p>Read inspiring ideas and share your learning experiences with the community.</p></div></article>
+          </div>
+        </section></td>
+      </tr></table>
+      <table width="100%" cellpadding="12" bgcolor="#ffffff"><tr><td><section id="support" aria-labelledby="support-title">
+        <h2 id="support-title"><font color="#165d60">FEEDBACK &amp; SUPPORT</font></h2>
+        <!-- HTML5 validates required fields before the submit event. -->
+        <form action="#support" method="get" id="support-form">
+          <div>
+            <div><label for="subject">Subject</label><br><input type="text" id="subject" name="subject" required maxlength="150" size="40"></div><br>
+            <div><label for="category">Category</label><br><select id="category" name="category" required><option value="" disabled selected>Select Category</option><option value="comment">Feedback / Comments</option><option value="question">General Inquiry</option><option value="technical">Technical Support</option><option value="academic">Academic Support</option></select></div><br>
+          </div><br>
+          <div><label for="message">Your Message</label><br><textarea id="message" name="message" rows="5" cols="65" required maxlength="3000"></textarea></div><br>
+          <button type="submit">Send</button>
+        </form>
+      </section></td></tr></table>
+    </td>
+  </tr></table>
+</main>
+<footer>
+  <table width="100%" cellpadding="18" bgcolor="#165d60"><tr>
+    <td><nav aria-label="Footer navigation">
+      <a href="#hub-title"><font color="white">About Us</font></a> &nbsp;
+      <a href="#support"><font color="white">Privacy Policy</font></a> &nbsp;
+      <a href="#support"><font color="white">Terms of Use</font></a> &nbsp;
+      <a href="#support"><font color="white">Contact</font></a>
+    </nav></td>
+    <td align="right"><font color="white">© 2024 GLOBAL ACADEMY</font></td>
+  </tr></table>
+</footer>
+</body>
+</html>
